@@ -8,7 +8,5 @@ import retrofit2.http.GET
 interface UserApi {
 
     @GET("userdetails")
-    fun getUserDetails(): Call<UserDetails> {
-
-
+    fun getUserDetails(): Call<UserDetails>
 }
